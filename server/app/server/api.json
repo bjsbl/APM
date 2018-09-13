@@ -1,0 +1,45 @@
+{
+  "name":"测试接口任务",
+  "create_time":"2018/09/09 18:00",
+  "total":23,
+  "frequency":2,
+  "api_list":[
+      {
+        "name":"测试接口",
+        "frequency":1,
+        "sleep":1,
+        "type":"normal",
+        "method":"post",
+        "url":"https://www.microoak.cn/wx/message/pubMessage/LS/oW7r9wlgJu42rnTpPgHHRAHyvgF4",
+        "headers":[
+          {"Content-Type":"application/json"},
+          {"User-Agent":"User-Agent: Mozilla/5.0 (Linux; X11)"}
+        ],
+        "data":{"content":"这是测试","students":[{"classId":"342701951e4e46419b19f40f66c0dfe1","student":["11394c1fa7304bb793004fe974e83004"]}]}
+      },
+      {
+        "name":"测试接口1",
+        "frequency":2,
+        "sleep":0,
+        "type":"normal",
+        "method":"post",
+        "url":"https://www.microoak.cn/wx/message/pubMessage/LS/oW7r9wlgJu42rnTpPgHHRAHyvgF4",
+        "headers":[
+          {"content-type":"application/json"}
+        ],
+        "data":{"content":"这是测试","students":[{"classId":"342701951e4e46419b19f40f66c0dfe1","student":["11394c1fa7304bb793004fe974e83004"]}]}
+      },
+      {
+        "name":"测试接口2",
+        "frequency":1,
+        "sleep":1,
+        "type":"normal",
+        "method":"post",
+        "url":"https://www.microoak.cn/wx/message/pubMessage/LS/oW7r9wlgJu42rnTpPgHHRAHyvgF4",
+        "headers":[
+          {"content-type":"application/json"}
+        ],
+        "data":{"content":"这是测试","students":[{"classId":"342701951e4e46419b19f40f66c0dfe1","student":["11394c1fa7304bb793004fe974e83004"]}]}
+      }
+  ]
+}
